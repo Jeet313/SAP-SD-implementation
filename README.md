@@ -41,3 +41,5 @@ The implementation was designed to achieve the following business goals:
 •Create end-to-end Revenue account and assign with G/L account.
 
 •Maintain text determination for sales order, delivery and billings.
+
+Note - I upload all releveant screenshots for each section and also upload a Presentation in PDF format you can easily watch it by this name "My_SAP_SD_project".
