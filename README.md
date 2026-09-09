@@ -42,4 +42,6 @@ The implementation was designed to achieve the following business goals:
 
 •Maintain text determination for sales order, delivery and billings.
 
+•Set Credit limit for customer by credit control area and set automatic credit control.
+
 Note - I upload all releveant screenshots for each section and also upload a Presentation in PDF format you can easily view it by this name "My_SAP_SD_project".
