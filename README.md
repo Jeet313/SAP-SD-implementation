@@ -22,26 +22,102 @@ The objective of this project was to automate the complete Order-to-Cash (O2C) l
 
 The implementation was designed to achieve the following business goals:
 
-•Build a complete SAP SD Enterprise Structure.
+Enterprise Structure
+Configured the SAP SD organizational structure including:
+- Company Code - 1000
+- Plant - 1200
+- Sales Organization – MNX1
+- Distribution Channel – 4J
+- Division – HJ, HK
+- Sales Office – AFS9
+- Sales Group – 4Q, 4B
+- Shipping Point – FXL9
+👉 [Screenshot: - Sales area data customer]
 
-•Create Customer and Material Master data.
+2️⃣ Business Partner & Master Data
+- BP Group – GMCS, Number Range – 14
+- Account Group – GSX9, Number Range – 03
+- Partner group - JXCX
+- Business Partners – SP, SH, BP, PY
+- Customer Company Code Data - 1000
+- Business Partner Number – 9900000520
+- Customer Number - 1000000115 
+👉 [Screenshot - Sales area data customer]
 
-•Implement Pricing & Condition Technique.
+ 4️⃣ Pricing & Condition Technique
 
-•Configure Shipping Point and Storage Location Determination.
+- Condition Tables - 547
+- Access Sequences – ASD9
+- Condition Types – XRK0
+- Pricing Procedure – RVAA01
+- Pricing Procedure Determination - MNX1,4J, HJ, A, 1, RVNN01, XRK0
+- Customer pricing procedure – 1
+- Document pricing procedure - A
 
-•Manage inventory through MIGO and MMBE.
 
-•Execute the complete Inquiry-to-Billing process.
+👉 [Screenshots - VK11, OVKK]
 
-•Integrate SD Billing with Financial Accounting.
+ 5️⃣ Shipping & Logistics
+- Shipping Point Determination -  02, 0001, 1200
+- Shipping Conditions – 02 
+- Loading Group - 0001
+- Plant – 1200
+- Shipping Point – FXL9
+Inventory verification was performed using:
+MIGO 
+- Material – 3812
+- Quantity – 1000 (PC)
+- Storage location – 0001
+- Plant - 1200
+MMBE
+- Batch Number -  0000000461
 
-•Support Consignment and Advanced Returns scenarios.
+👉 [Screenshots: - Shipping Point determination, MMBE stock overview post]
 
-•Create end-to-end Revenue account and assign with G/L account.
+ 6️⃣ Credit Management
+- Credit Control Area – HJ09
+- Risk Category – D01 (High Risk Customer), D02 (Medium Risk Customer), D03 (low Risk Customer)
+- Credit Limit – 10000/-
+- Credit groups – Z1 (Block at sales order level), z2 (Block at delivery level), z3 (Block at PGI level)
 
-•Maintain text determination for sales order, delivery and billings.
+👉 [Screenshots:- Automatic credit control, Maintain credit limit in FD32]
 
-•Set Credit limit for customer by credit control area and set automatic credit control.
+ 7️⃣ Text Determination (VOTXN)
+Customer - 
+Text Type - TC01
+Text Procedure - C1
+Account Group - Gsx9+C1
+Text Added - No Guaranteed Replacement After 10 Business Days
+
+Sales Order - 
+Text Type - TC02
+Text Procedure - C2
+Acc Seq - 26
+
+Delivery - 
+Text Type - TC03
+Text Procedure - C3
+Acc Seq - 27
+
+Invoice - 
+Text Type - TC04
+Text Procedure - C4
+Acc Seq - 28
+
+👉 [Screenshots:- Text ID in customer, Text procedure with account group, Customer text procedure, sales order header text tab, delivery header text, invoice header text]
+
+# 💵 8️⃣ Revenue Account Determination & SD–FI Integration
+
+Configured revenue account determination to integrate SD billing with Financial Accounting.
+- Table – 514
+- Access Sequence – HH9
+- Condition type – NEX7
+- Account Determination procedure – KL07
+- G/L Account - 175000
+
+👉 [Screenshots:- Revenue account with G/l account, Vf03 Environment Revenue Account]
+
+
+
 
 Note - I upload all releveant screenshots for each section and also upload a Presentation in PDF format you can easily view it by this name "My_SAP_SD_project".
