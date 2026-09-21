@@ -86,26 +86,27 @@ MMBE
 
  7️⃣ Text Determination (VOTXN)
 
--Customer - 1000000115
--Text Type - TC01
--Text Procedure - C1
--Account Group - Gsx9+C1
--Text Added - No Guaranteed Replacement After 10 Business Days
+- Customer - 1000000115
+- Text Type - TC01
+- Text Procedure - C1
+- Account Group - Gsx9+C1
+- Text Added - No Guaranteed Replacement After 10 Business Days
 
 Sales Order - 
--Text Type - TC02
--Text Procedure - C2
--Acc Seq - 26
+- Text Type - TC02
+- Text Procedure - C2
+- Acc Seq - 26
 
 Delivery - 
--Text Type - TC03
--Text Procedure - C3
--Acc Seq - 27
+- Text Type - TC03
+- Text Procedure - C3
+- Acc Seq - 27
 
 Invoice - 
--Text Type - TC04
--Text Procedure - C4
--Acc Seq - 28
+- Text Type - TC04
+- Text Procedure - C4
+- Acc Seq - 28
+
 
 👉 [Screenshots:- Text ID in customer, Text procedure with account group, Customer text procedure, sales order header text tab, delivery header text, invoice header text]
 
