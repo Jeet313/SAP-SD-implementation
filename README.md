@@ -85,7 +85,8 @@ MMBE
 👉 [Screenshots:- Automatic credit control, Maintain credit limit in FD32]
 
  7️⃣ Text Determination (VOTXN)
-Customer - 
+
+Customer - 1000000115
 Text Type - TC01
 Text Procedure - C1
 Account Group - Gsx9+C1
