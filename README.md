@@ -32,6 +32,7 @@ Configured the SAP SD organizational structure including:
 - Sales Office – AFS9
 - Sales Group – 4Q, 4B
 - Shipping Point – FXL9
+
 👉 [Screenshot: - Sales area data customer]
 
 2️⃣ Business Partner & Master Data
@@ -42,6 +43,7 @@ Configured the SAP SD organizational structure including:
 - Customer Company Code Data - 1000
 - Business Partner Number – 9900000520
 - Customer Number - 1000000115 
+
 👉 [Screenshot - Sales area data customer]
 
  4️⃣ Pricing & Condition Technique
@@ -106,7 +108,7 @@ Acc Seq - 28
 
 👉 [Screenshots:- Text ID in customer, Text procedure with account group, Customer text procedure, sales order header text tab, delivery header text, invoice header text]
 
-# 💵 8️⃣ Revenue Account Determination & SD–FI Integration
+ 8️⃣ Revenue Account Determination & SD–FI Integration
 
 Configured revenue account determination to integrate SD billing with Financial Accounting.
 - Table – 514
