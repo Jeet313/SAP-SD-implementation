@@ -134,4 +134,4 @@ Pricing procedure – RVNN01
 
 👉 [Screenshots:- Tax category for country, Customer tax maintain, Material tax maintain, Sales order billing tax applied]
 
-Note - I upload all releveant screenshots for each section and also upload a Presentation in PDF format you can easily view it by this name "My_SAP_SD_project". Also i uploaded Root Cause Analysis(RCA) register in Excel format the issues i've faced and solved during Unit testing.
+Note - I upload all releveant screenshots for each section and also upload a Presentation in PDF format you can easily view it by this name "My_SAP_SD_PDF". Also i uploaded Root Cause Analysis(RCA) register in Excel format the issues i've faced and solved during Unit testing.
