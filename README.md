@@ -11,7 +11,7 @@ Client Information
 
 • Environment: SAP S/4HANA 
 
-• Duration: 5 Days 
+• Duration: 15 Days 
 
 • Prepared by: Gourab Karmakar
 
