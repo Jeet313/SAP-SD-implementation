@@ -121,7 +121,17 @@ Configured revenue account determination to integrate SD billing with Financial 
 
 👉 [Screenshots:- Revenue account with G/l account, Vf03 Environment Revenue Account]
 
+9 Tax Determination
 
+- Condition Table - 554
+- Access Sequence - JXTX
+- Condition Type – 
+ - JXSG (SGST @5%)
+ - JXCG (CGST @5%)
+ - JXIG (IGST @10%)
+ - JXUG (UGST @10%)
+Pricing procedure – RVNN01
 
+👉 [Screenshots:- Tax category for country, Customer tax maintain, Material tax maintain, Sales order billing tax applied]
 
 Note - I upload all releveant screenshots for each section and also upload a Presentation in PDF format you can easily view it by this name "My_SAP_SD_project". Also i uploaded Root Cause Analysis(RCA) register in Excel format the issues i've faced and solved during Unit testing.
