@@ -5,7 +5,7 @@ Client Information
 
 • Client: Aztech Solutions Pvt. Ltd. 
 
-• Implementation Type: Greenfield Implementation 
+• Implementation Type: Complete Order to cash configuration & Implementation 
 
 • Module: SAP S/4HANA Sales and Distribution (SD) 
 
